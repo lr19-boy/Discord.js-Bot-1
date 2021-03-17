@@ -24,7 +24,7 @@ client.on("ready", function() {
   const message = "I`m Online";
   //client.channels.cache.get(channelID).send(message)
   client.user.setPresence({
-    status: "idle",
+    status: "online",
     //online,idle...
     activity: {
       name: "Your activity list", //the status
