@@ -27,7 +27,7 @@ client.on("ready", function() {
     status: "idle",
     //online,idle...
     activity: {
-      name: "phelp | T34M_DISCORD (JS / PY) server", //the status
+      name: "Your activity list", //the status
       type: "LISTENING" //type
     }
   })
