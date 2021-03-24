@@ -1,4 +1,4 @@
-# Perfectly-Fun-Bot
+# Discord.js-Bot
 This source can be used in repl.it 
 Many fun commands are there. 
 Have a great day with the source.
