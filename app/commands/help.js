@@ -2,7 +2,7 @@ const { MessageEmbed, Client, Discord, Collection } = require('discord.js');
 
 exports.run = (client, message, args, config) => {
   const messageEmbed = new MessageEmbed()
-  .setTitle("Perfectly Fun Bot")
+  .setTitle("Discordjs-Bot")
   .addFields(
     { name: "Help", value: "Show All Of The Commands Of The Bot (phelp)" },
     { name: "Ascii", value: "Converts to ascii word (pascii  hi"},
@@ -22,7 +22,7 @@ exports.run = (client, message, args, config) => {
     { name: "Ob", value: "Just type pob (all in small letters)"},
   )
   .setColor("RANDOM")
-  .setFooter('©️ Perfectly Fun Bot. More commands will be added soon'); 
+  .setFooter("Requested by " + message.author.tag, message.author.displayAvatarURL()) 
 
   message.channel.send(messageEmbed)
 
