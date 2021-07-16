@@ -27,7 +27,7 @@ client.on("ready", function() {
     status: "online",
     //online,idle...
     activity: {
-      name: "Your activity list", //the status
+      name: "Your activity list | I am ${client.guilds.cache.size} servers", //the status
       type: "LISTENING" //type
     }
   })
